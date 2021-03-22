@@ -56,7 +56,6 @@ img {
   background: var(--main-bg-color);
   border-bottom: 1px solid var(--header-border-color);
   display: flex;
-  margin-bottom: 42px;
 }
 .page-navigation {
   display: flex;
@@ -74,7 +73,9 @@ img {
   font-size: 26px;
   line-height: 1.2;
   color: var(--logo-header-color);
-  margin: 24px 93px 25px 215px;
+  display: flex;
+  align-items: center;
+  margin-right: 93px;
 }
 .web-logo {
   color: var(--hover-color);
@@ -137,9 +138,8 @@ img {
 }
 .banner-section {
   background: var(--banner-footer-bg-color);
-  padding-top: 158px;
-  padding-bottom: 230px;
-  margin-bottom: 52px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .make-an-order {
   font-family: 'Roboto', sans-serif;
@@ -164,6 +164,7 @@ img {
   background: var(--main-section-bg-color);
 }
 .our-qualities-section {
+  padding-top: 52px;
   padding-bottom: 94px;
   display: flex;
   justify-content: center;
@@ -223,7 +224,7 @@ img {
   color: var(--h1-h2-h3-color);
 }
 .our-work-section {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 /*Our Team Section*/
 .our-team {
@@ -321,7 +322,7 @@ img {
 /* Filters section*/
 .filters {
   margin-top: 0px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   padding-left: 0px;
   display: flex;
   justify-content: center;
@@ -341,6 +342,7 @@ img {
   font-size: 16px;
   line-height: 1.62;
   color: var(--h1-h2-h3-color);
+  padding: 6px 22px;
 }
 .button-filters-li:hover {
   color: var(--buttons-bg-color);
@@ -377,7 +379,7 @@ img {
 }
 /*------Main Section-------*/
 .main-content-portfolio {
-  padding-top: 52px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .filters-image {
