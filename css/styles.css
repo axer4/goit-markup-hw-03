@@ -63,8 +63,7 @@ img {
 .navigation-list {
   display: flex;
   padding-left: 0px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  align-items: center;
 }
 .logo-header {
   text-decoration: none;
@@ -164,7 +163,7 @@ img {
   background: var(--main-section-bg-color);
 }
 .our-qualities-section {
-  padding-top: 52px;
+  padding-top: 94px;
   padding-bottom: 94px;
   display: flex;
   justify-content: center;
@@ -343,6 +342,7 @@ img {
   line-height: 1.62;
   color: var(--h1-h2-h3-color);
   padding: 6px 22px;
+  border: none;
 }
 .button-filters-li:hover {
   color: var(--buttons-bg-color);
